@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#container .sub_visual 
+#container .sub_visual .sv_txt {text-align: center;}
+#container .sub_visual .sv_txt h2 {position: absolute; left:50%; top:30%; transform: translateX(-50%); color:#fff; font-size:8rem; font-family: var(--main-font);}
+#container .sub_visual .sv_txt p {position: absolute; left:50%; top:50%; transform: translateX(-50%); color:#fff; font-family: var(--main-font);}
+#container .sub_visual .sv_txt h2::before {content:''}
+h3::before {content:''}
+
+.contents h3 {font-family: var(--main-font); font-size:4rem; }
+.contents h3 span {color:#c27a34; }
+.contents p span {color:#c27a34; }
+.contents p {color:#999; font-size:2rem; }
+.inner_txt p {font-size:2.5rem;}
+.inner_txt {text-align: left;}
+.overview1 {position: relative; padding:250px 0;}
+.overview1 img {position: absolute; right:0;}
+.overview1 .ov_txt {position: absolute; left:0; z-index: 5;}
+.overview2 {position: relative; padding:250px 0;}
+.overview2 img {position: absolute; left:0;}
+.overview2 .ov_txt {position: absolute; right:5%; top:60%; z-index: 5;}
+.overview3 {position: relative; padding:550px 0;}
+.overview3 img {position: absolute; right:0;}
+.overview3 .ov_txt {position: absolute; left:0; top:60%; z-index: 5;}
+.overview4 {position: relative; padding:150px 0;}
+.overview4 img {position: absolute; left:0; }
+.overview4 .ov_txt {position: absolute; right:5%; top:80%; z-index: 5;}
+.overview5 {position: relative; padding:450px 0;}
+.overview5 img {position: absolute; right:0; }
+.overview5 .ov_txt {position: absolute; left:0; top:80%; z-index: 5;}
